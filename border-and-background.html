@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Width BOrder and Background</title>
+    <style>
+        #firstPara{
+            background-color: red;
+            height: 100px;
+            width: 445px;
+            /* border-width: 4px;
+            border-color: blueviolet;
+            border-style: solid;*/
+            border-radius: 14px; 
+            border: 4px solid blueviolet;
+        }
+        #secondPara{
+            background-color: rgb(209, 192, 192);
+            height: 100px;
+            width: 445px;
+            border-top: 4px solid violet;
+            border-right: 4px solid yellowgreen;
+            border-bottom: 4px solid rgb(0, 34, 128);
+            border-left: 4px solid rgb(148, 0, 74);
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+        }
+        #thirdPara{
+            
+            height: 500px;
+            width: 445px;
+            background-image: url('./praveen.jpeg');
+            border: 2px solid red;
+            background-repeat: no-repeat;/* repeat-x and repeat-y will make it repeat x & y axis*/
+            /* background-position: 120px 34px; */
+            /* background-position: center center; */
+            /* background-position: center top; */
+            background-position: top bottom;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstPara">This is a paragraph</p>
+    <p id="secondPara">This is a second paragraph</p>
+    <h3>This is third heading</h3>
+    <p id="thirdPara">This is a third paragraph</p>
+
+
+</body>
+</html>
